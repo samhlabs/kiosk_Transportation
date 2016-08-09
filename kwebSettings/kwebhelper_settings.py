@@ -41,7 +41,7 @@ uget_options = ['--quiet']
 check_desktop = False
 # Direct commands will be executed without starting a terminal first.
 # Use it for background commands or programs with a GUI that are not desktop programs or if check_desktop is set to "False"
-direct_commands = ['kwebhelper.py','omxplayergui.py','kwebhelper_set.py','omxplayer','gksudo','xterm','/media/PiShare/Git/kiosk_Transportation/startOMX.sh','/media/PiShare/Git/kiosk_Transportation/startOMX2.sh','/media/PiShare/Git/kiosk_Transportation/startOMX3.sh','/media/PiShare/Git/kiosk_Transportation/startCCOMX.sh','/media/PiShare/Git/kiosk_Transportation/stopOMX.sh','/media/PiShare/Git/kiosk_Transportation/volumeUp.sh','/media/PiShare/Git/kiosk_Transportation/volumeDown.sh']
+direct_commands = ['kwebhelper.py','omxplayergui.py','kwebhelper_set.py','omxplayer','gksudo','xterm','/media/PiShare/Git/kiosk_Transportation/startOMX.sh','/media/PiShare/Git/kiosk_Transportation/startOMX2.sh','/media/PiShare/Git/kiosk_Transportation/startOMX3.sh','/media/PiShare/Git/kiosk_Transportation/startCCOMX.sh','/media/PiShare/Git/kiosk_Transportation/startCCOMX2.sh','/media/PiShare/Git/kiosk_Transportation/startCCOMX3.sh','/media/PiShare/Git/kiosk_Transportation/stopOMX.sh','/media/PiShare/Git/kiosk_Transportation/volumeUp.sh','/media/PiShare/Git/kiosk_Transportation/volumeDown.sh']
 # Preferred terminal to run commands in, must be set ('xterm' or 'lxterminal')
 preferred_terminal = 'lxterminal'
 #preferred_terminal = 'xterm'

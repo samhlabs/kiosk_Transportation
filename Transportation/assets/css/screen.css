@@ -531,6 +531,7 @@ input[type="checkbox"]:focus {
   height: 100vh;
   background: #eee;
   display: table;
+  border-left:5px solid #fff;
 }
 
 .play {
@@ -541,8 +542,21 @@ input[type="checkbox"]:focus {
 .play img {
   display: block;
   margin: 0 auto;
-  height: 150px;
-  width: 150px;
+  height: 110px;
+  width: 110px;
+}
+
+.playcc {
+  margin-top: 80%;
+  margin-left: 44%;
+  display: inline-block;
+}
+
+.playcc img {
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  width: 60px;
 }
 
 .bg {
