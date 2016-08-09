@@ -526,7 +526,7 @@ input[type="checkbox"]:focus {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 58.3333333%;
+  width: 31.7%;
   padding: 0 20px;
   height: 100vh;
   background: #eee;
@@ -534,7 +534,7 @@ input[type="checkbox"]:focus {
 }
 
 .play {
-  margin-top: 42%;
+  margin-top: 72%;
   margin-left: 40%;
   display: inline-block;
 }
@@ -551,6 +551,22 @@ input[type="checkbox"]:focus {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-color:#555;
+}
+
+.bg2 {
+  background-image: url();
+  background-size: auto 110%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color:#999;
+}
+
+.bg3 {
+  background-image: url();
+  background-size: auto 110%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color:#777;
 }
 
 .video-info {
