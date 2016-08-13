@@ -4,7 +4,7 @@ sleep .1 #breath... give that damn processor a break already
 
 sudo killall -TERM omxplayer.bin 2>/dev/null #Kill all previously running omxplayer instances
 
-sleep .1 #breath... give that damn processor a break already
+#sleep .1 #breath... give that damn processor a break already
 
 #cat /bin/omxfifo | omxplayer -o local --win '300 0 1600 900' /media/PAGE/LINESHAFT_1318x900.mp4
 #pipe a read from omxfifo by omxplayer
