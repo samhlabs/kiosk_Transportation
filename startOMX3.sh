@@ -1,5 +1,7 @@
 #! /bin/sh
 
+sleep .1 #breath... give that damn processor a break already
+
 sudo killall -TERM omxplayer.bin 2>/dev/null #Kill all previously running omxplayer instances
 
 sleep .1 #breath... give that damn processor a break already
