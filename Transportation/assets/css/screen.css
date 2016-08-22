@@ -526,7 +526,7 @@ input[type="checkbox"]:focus {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 31.7%;
+  width: 25%;
   padding: 0 20px;
   height: 100vh;
   background: #eee;
@@ -535,7 +535,7 @@ input[type="checkbox"]:focus {
 }
 
 .play {
-  margin-top: 72%;
+  margin-top: 100%;
   margin-left: 40%;
   display: inline-block;
 }
@@ -560,27 +560,27 @@ input[type="checkbox"]:focus {
 }
 
 .bg {
-  background-image: url();
-  background-size: auto 110%;
+  /*background-image: url(../images/canals-bg.jpg);*/
+  background-size: auto 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-color:#555;
+  background-color:#666;
 }
 
 .bg2 {
-  background-image: url();
-  background-size: auto 110%;
+  background-image: url(../images/railroads-bg.jpg);
+  background-size: auto 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-color:#999;
 }
 
 .bg3 {
-  background-image: url();
+  /*background-image: url(../images/roads-bg.jpg);*/
   background-size: auto 110%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-color:#777;
+  background-color:#888;
 }
 
 .video-info {
@@ -589,7 +589,7 @@ input[type="checkbox"]:focus {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 36.6666667%;
+  width: 20%;
   padding: 0 20px;
   -moz-box-shadow: inset 6px 0px 20px -4px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: inset 6px 0px 20px -4px rgba(0, 0, 0, 0.4);
@@ -601,7 +601,8 @@ input[type="checkbox"]:focus {
 .video-info .title {
   display: block;
   height: 600px;
-  background-image: url(../images/works-kiosk-ui-transportation.png);
+  margin-top:200px;
+  background-image: url(../images/works-kiosk-ui-transportation-2.png);
   background-size: 115% auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
