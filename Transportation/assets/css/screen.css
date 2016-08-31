@@ -35,6 +35,12 @@ q:before, q:after, blockquote:before, blockquote:after {
 
 a img {
   border: none;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
@@ -538,18 +544,39 @@ input[type="checkbox"]:focus {
   margin-top: 120%;
   margin-left: 40%;
   display: inline-block;
+
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 .play img {
   display: block;
   margin: 0 auto;
   height: 110px;
   width: 110px;
+
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .playcc {
   margin-top: 110%;
   margin-left: 44%;
   display: inline-block;
+
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .playcc img {
@@ -557,6 +584,13 @@ input[type="checkbox"]:focus {
   margin: 0 auto;
   height: 60px;
   width: 60px;
+
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .bg {
